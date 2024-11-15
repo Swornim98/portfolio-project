@@ -1,0 +1,113 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:Amazon,Arial;
+}
+body{
+    background-color: hsl(0, 0%, 92%);
+    overflow-x: hidden;
+}
+:root{
+    --whole-website-left-margin:4rem;
+    --h3-color:#FE5F55;
+    --section-second-section-padding-left:20px;
+}
+@font-face {
+    font-family: Amazon;
+    src: url(font-family/Amazon\ Ember.ttf);
+}
+nav{
+    height: 7rem;
+    width:100%;
+    
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 6%, 93%);
+    margin-bottom: 1px solid hsl(0, 0%, 90%);
+}
+.nav1{
+height:2.5rem;
+width:100%;
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+}
+.nav1 a{
+    margin-right:1rem;
+}
+.nav2{
+    height:4.5rem;
+    width:100%;
+    background-color: hsl(0, 0%, 91%);
+    display:flex;
+    flex-direction: row;
+    z-index: 10;
+}
+
+.nav2-part2{
+    height:100%;
+    width:80%;
+
+}
+#logo{
+    height: 3.9rem;
+    width:4rem;
+    border-radius:50%;
+    border:2px solid hsl(0, 0%, 81%);
+    background:url(assests/photos/logo\ main.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.nav2-part1{
+    height: 100%;
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sticky{
+    position:fixed;
+
+}
+.navlist{
+    display:flex;
+     list-style-type: none;
+     width:100%;
+     height:100%;
+     flex-direction: row;
+     align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+}
+.lists{
+    width:8rem;
+    height:90%;
+    border-radius: 10px;
+    border:2px solid transparent;
+    margin-right:3rem;
+    text-align: center;
+    cursor:pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.35rem;
+}
+.lists:hover{
+    background-color: hsl(0, 0%, 81%);
+}
+@media (max-width:700px) {
+    .lists{
+        width:5rem;
+        margin-right:2rem;
+    }
+  
+}
+.main{
+    width:70%;
+    height:100%;
+    margin-left:5rem;
+    margin-top:2rem;
+}

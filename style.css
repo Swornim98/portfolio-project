@@ -515,6 +515,9 @@ footer i{
 }
 @media (max-width:500px) {
     footer p{
-        margin-bottom:2rem;
+        margin-bottom:2.5rem;
+    }
+    footer{
+        height:25rem;
     }
 }

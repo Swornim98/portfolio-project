@@ -251,7 +251,7 @@ nav a{
 }
               /* hamburger ends */
 #main-image{
-    max-width: 30rem;
+    max-width: 23rem;
  width:100%;
  height:fit-content;
  min-width: 18rem;
@@ -368,6 +368,9 @@ nav a{
 
 
 /* section second */
+.about{
+    margin-top:4rem;
+}
 .section-second{
     display:grid;
     height:400px;
@@ -375,7 +378,7 @@ nav a{
     margin-left:auto;
     margin-right: auto;
     grid-template-columns: 1fr 1fr;
-    margin-top:2rem;
+    margin-top:5rem;
     position:relative;
 }
 h2{
@@ -467,7 +470,7 @@ footer{
     display:flex;
     height:20rem;
     width: 100%;
-   
+   flex-direction: column;
 }
 .foot-list{
     display:flex;
@@ -497,6 +500,7 @@ footer p{
     width:100%;
     
 }
+
 footer i{
     display:inline-block;
 }

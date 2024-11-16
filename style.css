@@ -492,7 +492,7 @@ footer{
    flex-direction: column;
    margin-top:3rem;
    align-items: start;
-   
+   min-width:100vw;
    gap: 10;
 }
 .foot-list{

@@ -323,6 +323,15 @@ nav a{
         font-size: 4rem;
     }
 }
+@media (max-width:340px) {
+    .hi{
+        font-size: 2rem;
+    }
+    .section-first-part2-ul{
+        font-size: 1.5rem;
+    }
+    
+}
 @media (max-width:844px){
     .section-first-part2-ul{
         font-size: 2rem;

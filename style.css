@@ -530,5 +530,9 @@ footer i{
     }
     footer{
         height:25rem;
+
+    }
+    .copyright{
+        margin-bottom:1rem;
     }
 }

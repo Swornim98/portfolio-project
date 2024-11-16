@@ -323,16 +323,16 @@ nav a{
         font-size: 4rem;
     }
 }
-@media (max-width:340px) {
+@media (max-width:350px) {
     .hi{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .section-first-part2-ul{
         font-size: 1.5rem;
     }
-    
+
 }
-@media (max-width:844px){
+@media (min-width:350px) and (max-width:844px){
     .section-first-part2-ul{
         font-size: 2rem;
     }
@@ -341,7 +341,7 @@ nav a{
         font-size: 3rem;
     }
 }
-@media (max-width:560px) {
+@media (max-width:600px) {
     nav1{
         height:3.5rem;
         font-size: 0.75rem;
@@ -355,20 +355,24 @@ nav a{
     }
     .section-first-part2{
         padding-top: 1rem;
-       
+       max-height: 10rem;
         width: 100%;
-        height:50rem;
+        height:30%;
         flex-direction: row;
         margin-bottom:5rem;
         position:relative;
         justify-content: start;
         align-items: center;
+        padding-left:1rem
     }
     .part2-parts{
-        width: 100%;
+        min-width: 100%;
         height: 4rem;
         justify-content: center;
         align-items: center;
+    }
+    .section-first-part1{
+        height:70%;
     }
 }
 .part2-parts{
@@ -381,6 +385,12 @@ nav a{
     margin-top:4rem;
 }
 .section-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-second-main{
     display:grid;
     height:400px;
     width:80%;
@@ -435,7 +445,7 @@ h2{
     border-left:2px solid #bababa;
     padding:2px 2px 2px var(--section-second-section-padding-left);
     position:relative;
-
+   
 }
 .abt-cont::before{
     content:"";
@@ -463,7 +473,7 @@ h2{
         width:100%;
         position:relative;
     }
-    .section-second{
+    .section-second-main{
         grid-template-rows: 1fr 1fr;
         grid-template-columns: none;
         height: 100vh;
@@ -480,6 +490,7 @@ footer{
     height:20rem;
     width: 100%;
    flex-direction: column;
+   margin-top:3rem
 }
 .foot-list{
     display:flex;
@@ -515,7 +526,7 @@ footer i{
 }
 @media (max-width:500px) {
     footer p{
-        margin-bottom:2.5rem;
+        margin-bottom:2rem;
     }
     footer{
         height:25rem;

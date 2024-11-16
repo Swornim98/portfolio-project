@@ -513,3 +513,8 @@ footer p{
 footer i{
     display:inline-block;
 }
+@media (max-width:500px) {
+    footer p{
+        margin-bottom:2rem;
+    }
+}
